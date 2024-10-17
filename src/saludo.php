@@ -5,6 +5,7 @@
         private $msg;
 
         public function __construct($msg) {
+            $this->msg = $msg;
             $this->setSaludo();
         }
 
