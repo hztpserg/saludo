@@ -24,8 +24,4 @@
         public function getSaludo() {
             echo $this->msg;
         }
-
-        public function showMsg() {
-            echo $this->msg;
-        }
     }
