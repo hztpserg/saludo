@@ -12,6 +12,7 @@ composer require hztpaserg/saludo:dev-main
     use Saludo\Saludo\Saludo;
     $saludo = new Saludo('Nombre del usuario');
     $saludo->getSaludo();
+?>
 ```
 
 # saludo
