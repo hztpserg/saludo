@@ -18,6 +18,7 @@
                     <span class="fw-bold text-info">
                         ' . $this->usuario . ' 
                     </span>
+                    <i class="fa-solid fa-bell"></i>
                 </p>
             ';
         }
