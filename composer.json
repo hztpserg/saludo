@@ -1,6 +1,6 @@
 {
     "name": "hztpaserg/saludo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Libreria en PHP para generar saludos",
     "main": "carrouselConObjetos.js",
     "scripts": {
