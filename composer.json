@@ -1,17 +1,13 @@
 {
     "name": "hztpaserg/saludo",
     "version": "1.0.2",
-    "description": "Libreria en PHP para generar saludos",
-    "main": "carrouselConObjetos.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": [
+    "description": "Librería en PHP para generar saludos",
+    "authors": [
         {
-            "name":"Serhii Production",
-            "email":"your_email@example.com",
-            "url":"https://github.com/serhii/saludo",
-            "role":"Developer"
+            "name": "Serhii Production",
+            "email": "your_email@example.com",
+            "homepage": "https://github.com/serhii/saludo",
+            "role": "Developer"
         }
     ],
     "license": "MIT",
@@ -22,17 +18,14 @@
         "generar"
     ],
     "homepage": "https://github.com/serhii/saludo",
-    "prefer-stable": true,
-    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {
-            "Saludo\\Saludo\\": "src/"
+            "Saludo\\": "src/"
         }
-    }
-    
-
-
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable"
 }
